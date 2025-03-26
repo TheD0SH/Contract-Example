@@ -178,7 +178,9 @@
     "hardhat": "^2.22.19"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "deploy": "hardhat run scripts/deploy.ts --network hardhat"
+    
   },
   "keywords": [],
   "author": "",
